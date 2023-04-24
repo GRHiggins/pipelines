@@ -1,4 +1,4 @@
-# pipelines
+# Pipelines
  Support for advanced data transformations in Python.
 
 Pipelines provides a way to run complex sets of operations on Pandas Dataframes whilst checking data validity and reducing data

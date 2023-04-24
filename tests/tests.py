@@ -19,7 +19,7 @@ def add_one(data: pd.DataFrame):
 
 def add_one_hundred(data: pd.DataFrame):
     """
-    Adds one to the current dataframe values.
+    Adds one hundred to the current dataframe values.
 
     :param data:
     :return:

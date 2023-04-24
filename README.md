@@ -48,6 +48,7 @@ from pipelines.transforms import Transform
 pl = Pipeline()
 pl.add_input(data)
 pl.add_transform(Transform(add_one))
+pl.add_transform(Transform(add_one_hundred))
 pl.run()
 ```
 

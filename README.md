@@ -30,6 +30,15 @@ def add_one(data: pd.DataFrame):
     :return: bar
     """
     return data + 1
+    
+def add_one_hundred(data: pd.DataFrame):
+    """
+    Adds one to the current dataframe values.
+
+    :param data:
+    :return:
+    """
+    return data + 100
 ```
 
 ```

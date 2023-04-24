@@ -41,3 +41,13 @@ pl.add_input(data)
 pl.add_transform(Transform(add_one))
 pl.run()
 ```
+
+```
+print(pl)
+print(pl.steps)
+```
+Output:
+
+Pipeline(add_one -> add_one_hundred)
+- add_one: Adds one to the current dataframe values.
+- add_one_hundred: Adds one to the current dataframe values.
